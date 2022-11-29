@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my company</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <a href="#contactform">
+    <div class="contactRotateMain">
+      <div class="contactRotateInner">
+        <img src="images/circle.svg" alt="" />
+        <img src="images/circle2.svg" alt="" />
+      </div>
+    </div>
+  </a>
+
+
+  <div id="preloader" style="    background: #000  url(images/preload.gif) no-repeat center center;
+; background-size: 5%; opacity: 0.3;  ">
+
+
+
+  </div>
+  <!-----------------nav bar------------>
+  <div class="nav-bar" id="navbar11">
+    <div class="menu-bar">
+      <img src="images/logo.jpg" alt="" />
+      <ul>
+        <a href="#">
+          <li>Work</li>
+        </a>
+        <a href="#">
+          <li>Agency</li>
+        </a>
+
+        <li class="dropdown">
+          <a href="#">Services</a>
+          <ul>
+            <li><a href="#"> web design</a></li>
+            <li><a href="#">ui ux</a></li>
+            <li><a href="#">app design</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="social">
+      <img src="insta" alt="" />
+      <img src="insta" alt="" />
+      <img src="insta" alt="" />
+    </div>
+    <div><a href="#" class="nav-bar-contact">Contact</a></div>
+
+
+  </div><div class="menu-bar2">
+  <ul id="sidemenu">
+    <li><a >Home</a></li>
+    <li><a >Agency</a></li>
+    <li><a >Web Development</a></li>
+    <li><a >App Development</a></li>
+    <li><a >UIUX Design</a></li>
+    <li><a >Contact</a></li>
+    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+  </ul>
+</div>
+  <!--------------main------------->
+
+  <div class="feature" style="
+        background-image: linear-gradient(
+            rgba(4, 9, 30, 0.7),
+            rgba(4, 9, 30, 0.7)
+          ),
+          url(images/bg.webp);
+        background-position: center;
+
+        background-size: cover;
+      "><div class="menu-bar-icon">
+       <i class="fa-solid fa-bars" onclick="openmenu()"><b>Menu</b> </i></div>
+    <h1>
+      <span> Creative Techonology </span> <br />
+      <span> Located in Heart of Pakistan</span>
+    </h1>
+   <img src="images/featureimg.png" alt="">
+
+  </div>
+  <hr />
+
+
+  <!--------------services------------>
+
+  <div class="services effect">
+    <div class="titleimg">
+      <h1>Our Services</h1>
+    </div>
+
+    <div class="row">
+      <div class="col1">
+        <h1 id="webDesign" onclick="active1()">Web design</h1>
+        <h1 id="uiDesign" onclick="active2()">UI UX design</h1>
+        <h1 id="appDesign" onclick="active3()">App dev</h1>
+      </div>
+      <div class="col2">
+        <div id="showwebDesign" class="webdesign">
+          <div class="tag"><a href="#">Landing</a></div>
+          <div class="tag"><a href="#">Broucher site</a></div>
+          <div class="tag"><a href="#">Corporate website</a></div>
+          <br />
+          <div class="tag"><a href="#">Ecommerce</a></div>
+          <div class="tag"><a href="#">Web 3.0</a></div>
+
+          <p>
+            We create world-class websites using modern design practices.
+            Mobile-first websites and web experiences are essential to the
+            success of your web project. While maintaining bespoke
+            originality, our team will focus on responsive design and optimize
+            your website for any device and interface. Your new website will
+            attract desirable target audiences, boost engagement, drive sales,
+            and increase the brand value of your business.
+          </p>
+          <div class="learn-more">
+            <a href="#">Learn More
+              <i class="fa-solid fa-arrow-rightfa-solid fa-arrow-right arrow"></i></a>
+          </div>
+          <hr />
+        </div>
+
+        <div id="showuiDesign" class="uidesign">
+          <div class="tag"><a href="#">UI</a></div>
+          <div class="tag"><a href="#">Saas products</a></div>
+          <div class="tag"><a href="#">Dashboard</a></div>
+          <br />
+          <div class="tag"><a href="#">Software</a></div>
+          <div class="tag"><a href="#">Marketplace</a></div>
+
+          <p>
+            Our branding team will excel at presenting your business in its
+            best light. Whether you’re looking to attract a new set of eyes,
+            rekindle an old client base, or simply refine your business’s
+            identity - our creatives will formulate the optimal corporate
+            identity, collateral designs, and brand guidelines unique to your
+            company’s needs. Armed with your new bespoke brand - you will now
+            be able to captivate engaged new audiences and capitalize on your
+            company’s full potential.
+          </p>
+          <div class="learn-more">
+            <a href="#">Learn More
+              <i class="fa-solid fa-arrow-rightfa-solid fa-arrow-right arrow"></i></a>
+          </div>
+          <hr />
+        </div>
+
+        <div id="showappDesign" class="appdesign">
+          <div class="tag"><a href="#">Corporate</a></div>
+          <div class="tag"><a href="#">Beauty</a></div>
+          <div class="tag"><a href="#">Corporate app</a></div>
+          <br />
+          <div class="tag"><a href="#">Re branding</a></div>
+          <div class="tag"><a href="#">Web 3.0</a></div>
+
+          <p>
+            Our innovative UI/UX team will create the optimal user-centered UI
+            design with smart UX for your project. Having both startup and
+            enterprise experience, our designers consider differing
+            functionality and audience demographics when designing a
+            pixel-perfect screen for each unique client challenge. Following
+            an existing brand guideline or a custom component library, our
+            team will deliver a sleek, clean UI for any complex interface use
+            case.
+          </p>
+          <div class="learn-more">
+            <a href="#">Learn More
+              <i class="fa-solid fa-arrow-rightfa-solid fa-arrow-right arrow"></i></a>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+
+  <!------------------our work--------------->
+
+
+
+  <section class="work effect">
+    <div class="titleimg">
+      <h1>Our Work</h1>
+    </div>
+    <div class="row row-work">
+      <div class="work-col">
+        <img src="images/w1.jpg" alt="build" />
+        <h3>Websites (HTML CSS javascript)</h3>
+        <p>
+          Aenean quis imperdiet velit, et varius turpis. Etiam felis nisi,
+          egestas vitae vestibulum eget, egestas in libero.
+        </p>
+      </div>
+      <div class="work-col">
+        <img src="images/w2.jpg" alt="build" />
+        <h3>Wordpress Websites</h3>
+        <p>
+          Aenean quis imperdiet velit, et varius turpis. Etiam felis nisi,
+          egestas vitae vestibulum eget, egestas in libero.
+        </p>
+      </div>
+      <div class="work-col">
+        <img src="images/w3.jpg" alt="build" />
+        <h3>App development</h3>
+        <p>
+          Aenean quis imperdiet velit, et varius turpis. Etiam felis nisi,
+          egestas vitae vestibulum eget, egestas in libero.
+        </p>
+      </div>
+      <div class="work-col">
+        <img src="images/w4.jpg" alt="build" />
+        <h3>Websites (HTML CSS javascript)</h3>
+        <p>
+          Aenean quis imperdiet velit, et varius turpis. Etiam felis nisi,
+          egestas vitae vestibulum eget, egestas in libero.
+        </p>
+      </div>
+      <div class="work-col">
+        <img src="images/w5.jpg" alt="build" />
+        <h3>Wordpress Websites</h3>
+        <p>
+          Aenean quis imperdiet velit, et varius turpis. Etiam felis nisi,
+          egestas vitae vestibulum eget, egestas in libero.
+        </p>
+      </div>
+      <div class="work-col">
+        <img src="images/w6.jpg" alt="build" />
+        <h3>App development</h3>
+        <p>
+          Aenean quis imperdiet velit, et varius turpis. Etiam felis nisi,
+          egestas vitae vestibulum eget, egestas in libero.
+        </p>
+      </div>
+      <div class="work-col">
+        <img src="images/w7.jpg" alt="build" />
+        <h3>Websites (HTML CSS javascript)</h3>
+        <p>
+          Aenean quis imperdiet velit, et varius turpis. Etiam felis nisi,
+          egestas vitae vestibulum eget, egestas in libero.
+        </p>
+      </div>
+      <div class="work-col">
+        <img src="images/w8.jpg" alt="build" />
+        <h3>Wordpress Websites</h3>
+        <p>
+          Aenean quis imperdiet velit, et varius turpis. Etiam felis nisi,
+          egestas vitae vestibulum eget, egestas in libero.
+        </p>
+      </div>
+      <div class="work-col">
+        <img src="images/w9.jpg" alt="build" />
+        <h3>App development</h3>
+        <p>
+          Aenean quis imperdiet velit, et varius turpis. Etiam felis nisi,
+          egestas vitae vestibulum eget, egestas in libero.
+        </p>
+      </div>
+      <div class="work-col">
+        <img src="images/w10.jpg" alt="build" />
+        <h3>Websites (HTML CSS javascript)</h3>
+        <p>
+          Aenean quis imperdiet velit, et varius turpis. Etiam felis nisi,
+          egestas vitae vestibulum eget, egestas in libero.
+        </p>
+      </div>
+      <div class="work-col">
+        <img src="images/w5.jpg" alt="build" />
+        <h3>Wordpress Websites</h3>
+        <p>
+          Aenean quis imperdiet velit, et varius turpis. Etiam felis nisi,
+          egestas vitae vestibulum eget, egestas in libero.
+        </p>
+      </div>
+      <div class="work-col">
+        <img src="images/w6.jpg" alt="build" />
+        <h3>App development</h3>
+        <p>
+          Aenean quis imperdiet velit, et varius turpis. Etiam felis nisi,
+          egestas vitae vestibulum eget, egestas in libero.
+        </p>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="learn-more scroll-right">
+      <a> &nbsp<i class="fa-solid fa-hand-point-down"></i> &nbsp Scroll Right To See More
+        <i class="fa-solid fa-arrow-rightfa-solid fa-arrow-right arrow"></i></a>
+    </div>
+  </section>
+  <br>
+  <hr />
+  <!------------------Our Team------------------------------------------------------------>
+  <section style="margin-top: 50px;">
+  <div class="titleimg">
+    <h1>Our Team</h1>
+  </div>
+  <div class="card-main-container">
+   
+    <div class="swiper mySwiper card-container">
+      <div class="swiper-wrapper content">
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="images/p1.jpg" alt="">
+            </div>
+            <div class="media-icons">
+
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name">john</span>
+              <span class="profession"> Web Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="images/p2.jpg" alt="">
+            </div>
+            <div class="media-icons">
+
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name">Walton</span>
+              <span class="profession"> App Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="images/p3.jpg" alt="">
+            </div>
+            <div class="media-icons">
+
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name">Maxwell</span>
+              <span class="profession"> Java Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="images/p4.jpg" alt="">
+            </div>
+            <div class="media-icons">
+
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name">Sam</span>
+              <span class="profession"> Wordpress Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="images/p5.jpg" alt="">
+            </div>
+            <div class="media-icons">
+
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name">john</span>
+              <span class="profession"> React Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="images/p6.jpg" alt="">
+            </div>
+            <div class="media-icons">
+
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name">john</span>
+              <span class="profession"> MERN Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="images/p7.jpg" alt="">
+            </div>
+            <div class="media-icons">
+
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name">john</span>
+              <span class="profession"> Full Stack Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="images/p8.jpg" alt="">
+            </div>
+            <div class="media-icons">
+
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name">john</span>
+              <span class="profession"> Java Developer</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="card-image">
+              <img src="images/p3.jpg" alt="">
+            </div>
+            <div class="media-icons">
+
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name">john</span>
+              <span class="profession"> App Developer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+
+  <hr />
+
+
+
+  <!------------------Testimonial------------------------------------------------------------>
+
+  <div class="container-testimonial">
+
+    <div class="testimonial">
+      <div class="testimonial-text">
+        <div class="user-text">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro nulla maxime iusto, temporibus pariatur
+            molestiae corrupti reprehenderit ea laudantium alias eum repellendus ipsum dolores voluptatibus doloribus
+            beatae quae in voluptatem recusandae. Aliquid, ratione! Blanditiis!
+          </p>
+          <span>John, CEO humble</span>
+        </div>
+        <div class="user-text active-text">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro nulla maxime iusto, temporibus pariatur
+            molestiae corrupti reprehenderit ea laudantium alias eum repellendus ipsum dolores voluptatibus doloribus
+            beatae quae in voluptatem recusandae. Aliquid, ratione! Blanditiis!
+          </p>
+          <span>Walton, CEO avetech</span>
+        </div>   <div class="user-text">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro nulla maxime iusto, temporibus pariatur
+            molestiae corrupti reprehenderit ea laudantium alias eum repellendus ipsum dolores voluptatibus doloribus
+            beatae quae in voluptatem recusandae. Aliquid, ratione! Blanditiis!
+          </p>
+          <span>Mash, CEO antech</span>
+        </div>   <div class="user-text">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro nulla maxime iusto, temporibus pariatur
+            molestiae corrupti reprehenderit ea laudantium alias eum repellendus ipsum dolores voluptatibus doloribus
+            beatae quae in voluptatem recusandae. Aliquid, ratione! Blanditiis!
+          </p>
+          <span>Smith, CEO Mashtech</span>
+        </div>   <div class="user-text">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro nulla maxime iusto, temporibus pariatur
+            molestiae corrupti reprehenderit ea laudantium alias eum repellendus ipsum dolores voluptatibus doloribus
+            beatae quae in voluptatem recusandae. Aliquid, ratione! Blanditiis!
+          </p>
+          <span>Brett, CEO hamtech</span>
+        </div>
+      </div>
+      <div class="testimonial-pic">
+        <img src="images/p8.jpg" alt="user-pic" class="user-pic" onclick="showReview()">
+         <img src="images/p7.jpg" alt="user-pic" class="user-pic active-pic" onclick="showReview()">
+        <img src="images/p6.jpg" alt="user-pic" class="user-pic" onclick="showReview()">
+        <img src="images/p5.jpg" alt="user-pic" class="user-pic" onclick="showReview()">
+        <img src="images/p4.jpg" alt="user-pic" class="user-pic" onclick="showReview()">
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <hr />
+  <!------------------Qoutes--------------->
+  <div class="qoute effect">
+    <h1>
+      <span class="qoutesym">"</span>
+      <span> We Create Innovative Design Solution that inspire. </span><br />
+      <span> Collaborate with a team that will make you proud. </span>
+      <span class="qoutesym">"</span><br />
+    </h1>
+  </div>
+  <hr>
+  <!---------------contact-------------------------->
+  <div id="contactform" class="contact1 qoute effect">
+    <h1>Build your dream project</h1>
+    <div class="row-contact">
+      <div class="col-contact">
+        <form action="#">
+          <input type="text" name="name" id="" placeholder="Your name" required />
+          <input type="email" name="email" id="" placeholder="Your email" required />
+          <input type="text" name="text" id="" placeholder="Tell us about your project" required />
+        </form>
+      </div>
+      <div class="col-contact">
+        <h2>Your industry is...</h2>
+        <div id="activetag" class="tag tag1" onclick="tagactive()">
+          Startups
+        </div>
+        <div class="tag tag1" onclick="tagactive()">Logistics</div>
+        <div class="tag tag" onclick="tagactive()">Real Estate</div>
+
+        <div class="tag tag1" onclick="tagactive()">Education</div>
+        <div class="tag tag1" onclick="tagactive()">e-commerce</div>
+        <div class="tag tag1" onclick="tagactive()">Wellness</div>
+        <div class="tag tag1" onclick="tagactive()">Travel</div>
+        <div class="tag tag1" onclick="tagactive()">Hosptality</div>
+
+        <div class="tag tag1" onclick="tagactive()">Healthcare</div>
+        <div class="tag tag1" onclick="tagactive()">Media</div>
+        <div class="tag tag1" onclick="tagactive()">Other</div>
+        <input type="text" name="text" id="" placeholder="Tell us your approximate budget" />
+      </div>
+    </div>
+    <div class="submit-btn">
+      <div class="titleimg contactimg">
+        <a href="">
+          <h1>Send</h1>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!------------------Footer--------------->
+  <footer>
+    <div class="footer">
+      <h1>
+        Starting a new project or want <br />
+        to collaborate with us?<span>Let’s talk</span>
+      </h1>
+      <div class="contact1">
+        <p>Contact With Us</p>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none">
+            <title id="title">footer_fb_color</title>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z" fill="orangered"></path>
+            <path class="socialhover" fill-rule="evenodd" clip-rule="evenodd"
+              d="M12.99 18.667v-6.334h1.775L15 10.15h-2.01l.003-1.093c0-.569.055-.874.885-.874h1.11V6h-1.776C11.08 6 10.33 7.059 10.33 8.84v1.31H9v2.183h1.33v6.334h2.66z"
+              fill="#404553"></path>
+          </svg></a>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none">
+            <title id="title">footer_twitter_color</title>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M0 12.124C0 5.566 5.304.25 11.846.25s11.846 5.317 11.846 11.875c0 6.56-5.304 11.876-11.846 11.876S0 18.683 0 12.124z"
+              fill="orangered"></path>
+            <path class="socialhover" fill-rule="evenodd" clip-rule="evenodd"
+              d="M12.083 10.495l.025.411-.414-.05c-1.508-.193-2.826-.847-3.944-1.946l-.547-.545-.141.403c-.298.897-.108 1.845.514 2.482.331.352.257.403-.315.193-.199-.067-.373-.117-.39-.092-.058.058.141.821.299 1.123.215.42.654.83 1.135 1.074l.406.193-.48.008c-.465 0-.481.008-.432.185.166.545.82 1.123 1.55 1.375l.514.176-.448.268a4.657 4.657 0 01-2.22.621c-.373.008-.68.042-.68.067 0 .084 1.011.553 1.6.738 1.764.545 3.86.31 5.435-.62 1.118-.663 2.237-1.98 2.76-3.254.28-.68.563-1.92.563-2.516 0-.386.024-.436.488-.898.274-.268.53-.561.58-.645.083-.16.075-.16-.348-.017-.704.252-.803.218-.455-.16.256-.268.563-.754.563-.897 0-.025-.124.017-.265.093-.15.083-.48.21-.73.285l-.447.142-.406-.276c-.223-.151-.538-.32-.704-.37-.422-.117-1.069-.1-1.45.034-1.036.377-1.69 1.35-1.616 2.415z"
+              fill="#404553"></path>
+          </svg></a>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none">
+            <title id="title">footer_instagram_color</title>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M0 12C0 5.373 5.36 0 11.97 0s11.97 5.373 11.97 12-5.36 12-11.97 12S0 18.627 0 12z" fill="orangered">
+            </path>
+            <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0 12C0 5.373 5.36 0 11.97 0s11.97 5.373 11.97 12-5.36 12-11.97 12S0 18.627 0 12z" fill="#fff">
+              </path>
+            </mask>
+            <g mask="url(#a)">
+              <path class="socialhover" fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.97 5.6c-1.733 0-1.95.008-2.632.039-.68.03-1.143.139-1.55.297-.42.163-.775.382-1.13.738a3.143 3.143 0 00-.737 1.134c-.158.407-.266.872-.297 1.553-.03.683-.038.9-.038 2.64 0 1.737.008 1.955.039 2.637.03.682.138 1.147.296 1.554.163.42.381.778.736 1.134.355.355.711.575 1.13.738.407.158.871.266 1.55.297.682.031.9.04 2.633.04 1.734 0 1.95-.009 2.631-.04.68-.03 1.145-.139 1.55-.297.42-.163.776-.383 1.13-.738.356-.356.574-.713.738-1.134.157-.407.264-.872.296-1.553.03-.683.039-.9.039-2.639 0-1.738-.008-1.956-.039-2.639-.032-.681-.14-1.146-.296-1.553a3.142 3.142 0 00-.737-1.134 3.12 3.12 0 00-1.13-.738c-.408-.158-.872-.266-1.551-.297-.681-.031-.898-.039-2.633-.039h.002zm-.572 1.153h.572c1.705 0 1.907.006 2.58.037.623.029.96.133 1.185.22.298.117.51.255.734.48.224.223.362.437.478.735.087.226.191.564.22 1.188.03.675.037.878.037 2.586 0 1.708-.007 1.91-.037 2.585-.029.624-.133.963-.22 1.188a1.98 1.98 0 01-.478.735 1.973 1.973 0 01-.734.479c-.224.088-.562.192-1.185.22-.673.031-.875.038-2.58.038-1.704 0-1.906-.007-2.58-.038-.622-.028-.96-.133-1.185-.22a1.977 1.977 0 01-.734-.479 1.984 1.984 0 01-.477-.736c-.088-.225-.192-.564-.22-1.188-.03-.674-.037-.877-.037-2.586 0-1.71.006-1.91.037-2.585.028-.624.132-.963.22-1.189.115-.298.254-.512.477-.736a1.98 1.98 0 01.734-.479c.225-.088.563-.192 1.186-.22.589-.027.817-.035 2.007-.036v.001zm3.831 1.063a.618.618 0 10.001 1.235.618.618 0 00-.001-1.235zm-3.258.897A3.283 3.283 0 008.691 12a3.282 3.282 0 003.278 3.286c1.811 0 3.278-1.47 3.278-3.286a3.282 3.282 0 00-3.278-3.287zm0 1.154A2.13 2.13 0 0114.098 12a2.13 2.13 0 01-2.128 2.133A2.13 2.13 0 019.843 12a2.13 2.13 0 012.127-2.133z"
+                fill="#404553"></path>
+            </g>
+          </svg></a>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none">
+            <title id="title">footer_linkedin_color</title>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z" fill="orangered"></path>
+            <path class="socialhover" fill-rule="evenodd" clip-rule="evenodd"
+              d="M7.777 7.872C8.537 7.872 9 7.319 9 6.636c-.015-.7-.462-1.236-1.193-1.236-.73 0-1.207.537-1.207 1.236 0 .683.462 1.236 1.177 1.236zm-1.117.976V16.8h2.266V8.848H6.66z"
+              fill="#404553"></path>
+            <path class="socialhover"
+              d="M10.266 11.605c0-.951-.033-1.747-.066-2.433h2.2l.117 1.06h.05C12.9 9.734 13.717 9 15.083 9 16.75 9 18 10.045 18 12.291V16.8h-2.534v-4.228c0-.982-.366-1.653-1.283-1.653-.7 0-1.116.452-1.3.89-.066.155-.083.373-.083.592V16.8h-2.534v-5.195z"
+              fill="#404553"></path>
+          </svg></a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script>
+    let activewebdesign = document.getElementById("webDesign");
+    let activeuidesign = document.getElementById("uiDesign");
+    let activeappdesign = document.getElementById("appDesign");
+    let showwebdesign = document.getElementById("showwebDesign");
+    let showuidesign = document.getElementById("showuiDesign");
+    let showappdesign = document.getElementById("showappDesign");
+    function active1() {
+      actives1 = activewebdesign.style.color = "black";
+      actives2 = activeuidesign.style.color = "gray";
+      actives3 = activeappdesign.style.color = "gray";
+
+      show1 = showwebdesign.style.display = "block";
+
+      show2 = showuidesign.style.display = "none";
+
+      show3 = showappdesign.style.display = "none";
+    }
+    function active2() {
+      actives1 = activewebdesign.style.color = "gray";
+      actives2 = activeuidesign.style.color = "black";
+      actives3 = activeappdesign.style.color = "gray";
+
+      show1 = showwebdesign.style.display = "none";
+
+      show2 = showuidesign.style.display = "block";
+
+
+      show3 = showappdesign.style.display = "none";
+    }
+    function active3() {
+      actives1 = activewebdesign.style.color = "gray";
+      actives2 = activeuidesign.style.color = "gray";
+      actives3 = activeappdesign.style.color = "black";
+
+      show1 = showwebdesign.style.display = "none";
+
+      show2 = showuidesign.style.display = "none";
+
+      show3 = showappdesign.style.display = "block";
+    }
+  </script>
+
+  <script>
+    let tagactiv = document.getElementById("activetag");
+    function tagactive() {
+      let current = tagactiv.classList.toggle("tag1active");
+    }
+  </script>
+  <!------------scrolling effect------->
+  <script>
+    window.addEventListener("scroll", scrollEffect);
+    function scrollEffect() {
+      var effects = document.querySelectorAll(".effect");
+      for (var i = 0; i < effects.length; i++) {
+        var windowHieght = window.innerHeight;
+        var effectTop = effects[i].getBoundingClientRect().top;
+
+        var effectsPoint = 150;
+        if (effectTop < windowHieght - effectsPoint) {
+          effects[i].classList.add("effectactive");
+        } else {
+          effects[i].classList.remove("effectactive");
+        }
+      }
+    }
+  </script>
+<!---------------------------------preloader js------------------------------->
+
+
+
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+
+      loader.style.display = "none";
+
+    })
+  </script>
+  <!-----<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      setTimeout(() => {
+        loader.style.display = "none";
+    }, 600)
+})
+      
+
+    
+  </script>-->
+
+
+
+
+  <!-- Swiper JS -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+  <!-------------------js for testimonial---------->
+  <script>
+let userTexts = document.getElementsByClassName("user-text");
+let userPics = document.getElementsByClassName("user-pic");
+
+function showReview(){
+  for(userPic of userPics){
+    userPic.classList.remove("active-pic");
+
+  }
+  for(userText of userTexts){
+    userText.classList.remove("active-text");
+
+  }
+  let i = Array.from(userPics).indexOf(event.target);
+  userPics[i].classList.add("active-pic");
+  userTexts[i].classList.add("active-text");
+}
+
+
+
+  </script>
+
+<script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+</script>
+</body>
+
+</html>
